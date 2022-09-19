@@ -343,6 +343,16 @@ nav h5 {
 .line {
   align-items: center;
   display: flex;
+  justify-content: space-evenly;
+}
+
+.line39 {
+  align-items: center;
+  display: flex;
+}
+
+.line38 {
+  padding-left: 15px;
 }
 
 .rectangle24 {
@@ -792,5 +802,9 @@ footer {
 }
 
 .collaborators a {
-  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.collaborators a:hover {
+  color: #bd9c77;
 }
